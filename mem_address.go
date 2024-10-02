@@ -2,7 +2,6 @@ package main
 import "fmt"
 
 func main() {
-	var name string
-	name = "Carlos"
+	name := "Carlos"
 	fmt.Println(name)
 }
