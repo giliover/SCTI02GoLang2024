@@ -3,5 +3,10 @@ import "fmt"
 
 func main() {
 	name := "Carlos"
-	fmt.Println(name)
+	address := &name
+	fmt.Println(name, address)
+
+	*address = "oi mundo"
+
+	fmt.Println(name, address)
 }
